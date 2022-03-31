@@ -27,5 +27,8 @@ dst = cv2.add(img1_bg,img2_fg)
 img1[0:rows, 0:cols ] = dst
 
 cv2.imshow('res',img1)
+cv2.imshow('img',img2)
+cv2.imshow('imag1',img1_bg)
+cv2.imshow('imag2',img2_fg)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
