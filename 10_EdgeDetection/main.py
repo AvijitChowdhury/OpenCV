@@ -30,7 +30,7 @@ while (1):
     edges = cv2.Canny(frame, 100, 200)
     cv2.imshow('Edges', edges)
 
-   
+
 
     k = cv2.waitKey(5) & 0xFF
     if k == 27:
